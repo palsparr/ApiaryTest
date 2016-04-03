@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:id="@+id/venueNameTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="26sp"
+        android:textColor="#ff000000"
+        android:padding="12dp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:id="@+id/productsTextView"
+        android:gravity="end|top"
+        android:layout_gravity="right|top"
+        android:paddingTop="17dp"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="17dp"
+        android:textSize="16sp"
+        android:textColor="#ff000000"
+        android:layout_alignBottom="@+id/venueNameTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/distanceTextView"
+        android:padding="12dp"
+        android:layout_below="@id/venueNameTextView"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
